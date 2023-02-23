@@ -1,24 +1,15 @@
-class Computer{
-
-  public void playmusic(){
-System.out.println("Play Some Random Music");
+class Hotel{
+    public void rooms(){
+System.out.println("Guests can take rest");
     }
-
-    public String getMePen(int cost){
-        if (cost >= 10)
-       return "pen";
-       else{
-        return "Nothing";
-       }
+    public void car(){
+System.out.println("We can go by Car");
     }
 }
-public class Hello
-{
-    public static void main(String[] args)
-    {
-    Computer obj = new Computer();
-    obj.playmusic();
-   String Str = obj.getMePen(5);
-   System.out.println(Str);
+public class Hello {
+    public static void main(String args[]){
+        Hotel H = new Hotel();
+        H.rooms();
+        H.car();
     }
 }
