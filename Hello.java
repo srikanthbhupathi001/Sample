@@ -6,11 +6,11 @@ public class Hello
        while(i<=5){
 System.out.println( "Hi "  + i );
 int j=1;
-while(j<=3)
-{
-    System.out.println("Hello mama" + j);
-    j++;
-}
+// while(j<=3)
+// {
+//     System.out.println("Hello mama" + j);
+//     j++;
+// }
        i++;
     
 }
